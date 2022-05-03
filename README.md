@@ -13,7 +13,7 @@ projeto completo back-end front-end e banco de dados.
 * [bcript](https://www.npmjs.com/package/bcrypt)
 * [JWT](https://jwt.io/)
 
-Rsultado: [Site](https://full-stack-rho.vercel.app/)
+Resultado: [Site](https://full-stack-rho.vercel.app/)
 
 ## como rodar na minha maquina?
 
