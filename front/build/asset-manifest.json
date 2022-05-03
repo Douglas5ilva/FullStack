@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6985b22d.css",
+    "main.js": "/static/js/main.78444c7a.js",
+    "static/js/787.71df535f.chunk.js": "/static/js/787.71df535f.chunk.js",
+    "static/media/road.png": "/static/media/road.60b9ca472b6788f180c5.png",
+    "static/media/mountain.png": "/static/media/mountain.0829473c494546eca2f7.png",
+    "static/media/bg.jpg": "/static/media/bg.d3cadcf326191a5d274e.jpg",
+    "static/media/moon.png": "/static/media/moon.22aa4ef00663e15041ec.png",
+    "index.html": "/index.html",
+    "main.6985b22d.css.map": "/static/css/main.6985b22d.css.map",
+    "main.78444c7a.js.map": "/static/js/main.78444c7a.js.map",
+    "787.71df535f.chunk.js.map": "/static/js/787.71df535f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6985b22d.css",
+    "static/js/main.78444c7a.js"
+  ]
+}

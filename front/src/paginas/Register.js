@@ -14,7 +14,7 @@ export default function Register(){
 
 
     async function add(){
-        await Axios.post("http://localhost:3001/user/register", {name, email, password}).then(res=>{
+        await Axios.post("https://backp.vercel.app/user/register", {name, email, password}).then(res=>{
             if(res){
                 setErrr(<Link to='/login'>Entrar</Link>)
             }

@@ -14,7 +14,7 @@ export default function Login(){
 
 
     async function add(){
-        await Axios.post("http://localhost:3001/user/login", {email, password}).then(res=>{
+        await Axios.post("https://backp.vercel.app/user/login", {email, password}).then(res=>{
             localStorage.setItem('token',res.data)
             if(res){
                 setErrr(<Link to='/user'>Entrar</Link>)
