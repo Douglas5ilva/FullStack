@@ -15,3 +15,10 @@ projeto completo back-end front-end e banco de dados.
 
 Rsultado: [Site](https://full-stack-rho.vercel.app/)
 
+## como rodae na minha maquina
+
+* baixe os arquivos
+* abra 2 terminais
+* no primeiro terminal, npm index, para rodar o servidor node.js
+* agora no segundo terminal, cd front para entrar na pasta client
+* depois npm start e pronto
