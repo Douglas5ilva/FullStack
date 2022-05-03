@@ -15,7 +15,7 @@ projeto completo back-end front-end e banco de dados.
 
 Rsultado: [Site](https://full-stack-rho.vercel.app/)
 
-## como rodae na minha maquina
+## como rodar na minha maquina?
 
 * baixe os arquivos
 * abra 2 terminais
