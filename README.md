@@ -1,6 +1,6 @@
 # FullStack
  
-projeto completo back-end front-end e banco de dados.
+projeto completo back-end, front-end e banco de dados.
 
 ## TECNOLOGIAS USADAS
 
