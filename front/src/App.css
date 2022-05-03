@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ddd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  background-color: #0a2a43;
+}
+
+.h1 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+header {
+  background-image: url('../src/images/bg.jpg');
+  background: linear-gradient(to bottom, rgb(202, 202, 202), transparent);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: blue;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+
+  margin-right: 20px;
+  list-style: none;
+}
+
+input,
+button {
+  padding: 10px;
+  margin: 5px;
+}
+
+section {
+  background-color: #ddd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.section {
+  background-color: #ddd;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+
+}
+
+textarea {
+  padding: 20px;
+  text-align: center;
+}
+
+.sect {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.sect:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #0a2a43;
+  z-index: 100;
+  mix-blend-mode: color;
+}
+
+.sect img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#text {
+  position: relative;
+  color: #fff;
+  font-size: 60px;
+  z-index: 1;
+
+}
+
+#road {
+  z-index: 2;
+}
+
+.div {
+  background-color: #0a2a43;
+  position: relative;
+  color: #fff;
+  font-size: 60px;
+  z-index: 3;
+  font-size: 12px;
+  padding: 20px;
+  z-index: 3;
+}
+
+@media (max-width: 500px) {
+
+
+
+  .h1 {
+    padding-left: 10px;
+  }
+
+  #moon {
+    position: absolute;
+    width: 210px;
+    height: 100px;
+    transform: translateY(0px);
+    padding-top: 120px;
+    padding-left: 30%;
+  }
+
+  #text {
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 120px;
+    color: #fff;
+    font-size: 30px;
+    z-index: 1;
+  }
+
+
+}
