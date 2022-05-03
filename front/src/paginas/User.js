@@ -21,7 +21,7 @@ export default function User() {
             if (token) {
                 setText(
                     <>
-                        <div style={{padding: '20px', width: '80%', margin: 'auto', background: 'white'}}>
+                        <div style={{padding: '20px', width: '80%', margin: 'auto', background: 'black'}}>
                             <h2> Ola {name}, é um brazer ter você aqui. </h2>
                             <p>
                                 {name} tudo bem? espero que sim, bom eu me chamo Douglas estou na área de tecnologia a 4 anos atuando como Desenvolvedor Web, Já tenho experiência com Front-end, atualmente estou estudando bastante Back-end, minha meta e ser um Full Stack, ja tive oportunidades de trabalhar no front-end com React Js, isso me deu mais experiência na área, mas ainda me falte experiência proficional no Back-end, pois só trabalhei proficionalmente com Reack Js, com Back-end fiz alguns <a href="https://github.com/Douglas5ilva/"> projetos </a> pra mostrar que posso resolver os desafios que forem propostos.
