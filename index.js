@@ -6,11 +6,11 @@ const admRouter = require('./routes/adminRouter')
 const mongoose = require('mongoose')
 const cors = require('cors')
 
-mongoose.connect(process.env.ATLAS_URL,{useNewUrlParser:true, useUnifiedTopology:true}).then(()=>{
-    console.log('MongoDB conectado...')
-}).catch((error)=>{
-    console.log(error)
-})
+//mongoose.connect(process.env.ATLAS_URL,{useNewUrlParser:true, useUnifiedTopology:true}).then(()=>{
+//    console.log('MongoDB conectado...')
+//}).catch((error)=>{
+//    console.log(error)
+//})
 
 app.use(cors())
 app.get('/', (req, res)=>{res.send('ok')})
